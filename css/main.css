@@ -850,15 +850,22 @@ img {
     background-repeat: no-repeat; */
 }
 
+.form-input:focus, .form-input:hover {
+  outline: none;
+  border-color: #2196F3;
+}
+
+.form-input:focus ~ .form-icon,
+.form-input:hover ~ .form-icon {
+  fill: #2196F3;
+}
+
 .form-label {
   position: absolute;
   -webkit-transform: translateY(-40px);
           transform: translateY(-40px);
   top: 50%;
   left: 41px;
-  /* margin: 0px;
-    padding: 0;
-     */
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -930,17 +937,6 @@ img {
   color: #757575;
 }
 
-.form-input:focus ~ .form-icon,
-.form-input:hover ~ .form-icon {
-  fill: #2196F3;
-}
-
-.form-input:focus,
-.form-input:hover {
-  outline: none;
-  border-color: #2196F3;
-}
-
 .btn-send {
   font-family: inherit;
   color: #ffffff;
@@ -958,8 +954,7 @@ img {
   border: 1px solid #2196F3;
 }
 
-.btn-send:hover,
-.btn-send:focus {
+.btn-send:hover, .btn-send:focus {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
