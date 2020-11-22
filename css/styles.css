@@ -117,6 +117,7 @@ img{
     height: auto;
 
 }
+
 .container {
     margin: 0;
     margin-left: auto;
@@ -137,8 +138,9 @@ img{
     justify-content: flex-start;
 }
 
-
 /********************** оформление текста шапки и подвала***********************/
+
+
 .webstudio {
     font-family: Raleway;
     font-weight: 700;
@@ -146,8 +148,7 @@ img{
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-    
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */  
 }
 .webstudio-header {
     color: var(--black); 
@@ -173,17 +174,21 @@ img{
 }
 
 /*меню -расстановка отступов*/
+.list {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0;
+    list-style: none;
+}
+
+
 .site-nav{
     display: flex;
     margin-left: 93px;
     
 }
 
-.list {
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-}
 
 .accent{
     color: var(--accent-cl);
@@ -577,9 +582,6 @@ border-color: var(--accent-cl);
     margin-top: 10px;
 }
 
-.icon-advantages {
-    
-}
 .icon-advantages::before{
     content: "";
     display: block;
@@ -708,6 +710,13 @@ border-color: var(--accent-cl);
     width: 270px;
     justify-content:space-between;
     padding: 0;
+}
+
+.center-network {
+    display: flex;
+    list-style: none;
+    padding: 0px 32px 30px 32px;
+    
 }
 .a-link {
     display: block;
