@@ -338,6 +338,18 @@ summary {
 }
 
 /********************** оформление текста шапки и подвала***********************/
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 .webstudio {
   font-family: Raleway;
   font-weight: 700;
@@ -680,16 +692,13 @@ img {
           justify-content: space-between;
 }
 
-.main-nav {
+/* используется не только в этой секции */
+.center-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  list-style: none;
+  padding: 0px 15px 0px 15px;
 }
 
 /********************** СЕКЦИЯ ЭФФЕКТИВНЫЕ РЕШЕНИЯ **************************/
@@ -1062,15 +1071,6 @@ img {
   letter-spacing: 0.03em;
   color: #212121;
   margin: 0px 0px 50px 0px;
-}
-
-/* используется не только в этой секции */
-.center-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  padding: 0px 15px 0px 15px;
 }
 
 .title-img {

@@ -1,6 +1,10 @@
-
 /********************** оформление текста шапки и подвала***********************/
 
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 
 .webstudio {
     font-family: Raleway;

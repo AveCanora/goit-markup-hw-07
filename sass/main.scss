@@ -5,7 +5,6 @@
 @import "./base/normalize";
 @import "./base/fonts";
 @import "./components/page_header";
-
 @import "./components/page_footer";
 
 /*Задать box-sizing: border-box;
@@ -29,7 +28,6 @@ img{
     display: block;
     max-width: 100%;
     height: auto;
-
 }
 
 .container {
@@ -41,11 +39,12 @@ img{
     justify-content:space-between;
    
 }
-
-.main-nav {
+/* используется не только в этой секции */
+.center-container {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    list-style: none;
+    padding: 0px 15px 0px 15px;
+    
 }
 
 @import "./components/index_section_1";
