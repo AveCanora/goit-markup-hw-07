@@ -1,58 +1,17 @@
-
-  
-
 @import "./variables";
 @import "./base/normalize";
 @import "./base/fonts";
+@import "./components/general";
+
 @import "./components/page_header";
 @import "./components/page_footer";
 
-/*Задать box-sizing: border-box;
-чтобы все внутренние отступы и границы всчитывались в размеры
-элемента. */
-html{
-    box-sizing: border-box;
-}
-*,
-*::before,
-*::after{
-box-sizing: inherit;
-}
-/*Базовое оформление*/
-body {
-    font-family: Roboto;
-    font-style: normal;       
-}
-img{
-    
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-.container {
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    padding: 0 15px;
-    justify-content:space-between;
-   
-}
-/* используется не только в этой секции */
-.center-container {
-    display: flex;
-    list-style: none;
-    padding: 0px 15px 0px 15px;
-    
-}
 
 @import "./components/index_section_1";
+@import "./components/index_modal";
 @import "./components/index_section_2";
 @import "./components/index_section_3";
 @import "./components/index_section_4";
 @import "./components/index_section_5";
 @import "./components/portfolio_section_1";
 @import "./components/portfolio_section_2";
-
-
