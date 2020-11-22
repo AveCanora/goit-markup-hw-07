@@ -85,16 +85,15 @@
     height: 44px;
     background-color:$bg-icon; 
     border-radius: 50%;
+    &:hover,
+    &:focus {
+    background-color:$accent-cl;
+}
 }
 .join-icon-link:hover .join-icon-svg,
 .join-icon-link:focus .join-icon-svg{
     fill:$white;
     
-}
-.join-icon-link:hover,
-.join-icon-link:focus {
-
-    background-color:$accent-cl;
 }
 
 
@@ -137,8 +136,7 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    
- 
+
     
     width: 200px;
     height: 50px;

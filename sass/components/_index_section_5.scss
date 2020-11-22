@@ -18,7 +18,13 @@
     outline: 1px solid $cl-icon; 
     margin-bottom: 0px;
     margin-top: 0px;
+    &:hover,
+    &:focus {
+        outline: 1px solid $accent-cl; 
+    } 
 
+
+    
 }
 
 
@@ -33,9 +39,6 @@
     fill:$accent-cl;
     
 }
-.client-icon-link:hover,
-.client-icon-link:focus {
-    outline: 1px solid $accent-cl; 
-} 
+
 
 /* ******************************************************* */

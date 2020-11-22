@@ -383,6 +383,11 @@ img {
   padding: 0px 15px 0px 15px;
 }
 
+.a-link {
+  display: block;
+  text-decoration: none;
+}
+
 /********************** оформление текста шапки и подвала***********************/
 .main-nav {
   display: -webkit-box;
@@ -604,14 +609,13 @@ img {
   border-radius: 50%;
 }
 
+.join-icon-link:hover, .join-icon-link:focus {
+  background-color: #2196F3;
+}
+
 .join-icon-link:hover .join-icon-svg,
 .join-icon-link:focus .join-icon-svg {
   fill: #ffffff;
-}
-
-.join-icon-link:hover,
-.join-icon-link:focus {
-  background-color: #2196F3;
 }
 
 .join-icon-svg {
@@ -1129,11 +1133,6 @@ img {
   padding: 0px 32px 30px 32px;
 }
 
-.a-link {
-  display: block;
-  text-decoration: none;
-}
-
 .a-link:hover .hover::before {
   -webkit-transform: translateY(0);
           transform: translateY(0);
@@ -1155,14 +1154,13 @@ img {
   border-radius: 50%;
 }
 
+.team-icon-link:hover, .team-icon-link:focus {
+  background-color: #2196F3;
+}
+
 .team-icon-link:hover .team-icon-svg,
 .team-icon-link:focus .team-icon-svg {
   fill: #ffffff;
-}
-
-.team-icon-link:hover,
-.team-icon-link:focus {
-  background-color: #2196F3;
 }
 
 .team-icon-svg {
@@ -1198,6 +1196,10 @@ img {
   margin-top: 0px;
 }
 
+.client-icon-link:hover, .client-icon-link:focus {
+  outline: 1px solid #2196F3;
+}
+
 .client-icon-svg {
   fill: #AFB1B8;
 }
@@ -1205,11 +1207,6 @@ img {
 .client-icon-link:hover .client-icon-svg,
 .client-icon-link:focus .client-icon-svg {
   fill: #2196F3;
-}
-
-.client-icon-link:hover,
-.client-icon-link:focus {
-  outline: 1px solid #2196F3;
 }
 
 /* ******************************************************* */
