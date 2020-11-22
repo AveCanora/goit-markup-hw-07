@@ -19,20 +19,20 @@
     color: $black; 
 }
 
-    .auth-nav {
+.auth-nav {
+    display: flex;
+    margin-left: auto;
+        .link {
         display: flex;
-        margin-left: auto;
-          .link {
-            display: flex;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 1.143;
-            letter-spacing: 0.02em;  
-            color: inherit;
-            text-decoration: none;
-        }
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.143;
+        letter-spacing: 0.02em;  
+        color: inherit;
+        text-decoration: none;
     }
+}
 
 .link:hover,
 .link:focus{
