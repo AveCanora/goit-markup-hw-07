@@ -41,6 +41,14 @@
     border: 1px solid $bg-btn;
     border-radius: 4px; 
     padding: 6px 22px;
+    &:hover,
+    &:active
+    {
+        border-color: $accent-cl;
+        background-color: $accent-cl;
+        color: $white;
+    }
+
 }
 
 .btn-accent {
@@ -67,12 +75,5 @@
 }
 .btn-container .item +.item {
     margin-left:8px;
-}
-.btn-portfolio:hover,
-.btn-portfolio:active
-{
-    border-color: $accent-cl;
-    background-color: $accent-cl;
-    color: $white;
 }
 

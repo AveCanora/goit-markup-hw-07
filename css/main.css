@@ -1260,6 +1260,12 @@ img {
   padding: 6px 22px;
 }
 
+.btn-portfolio:hover, .btn-portfolio:active {
+  border-color: #2196F3;
+  background-color: #2196F3;
+  color: #ffffff;
+}
+
 .btn-accent {
   font-family: inherit;
   color: #ffffff;
@@ -1283,13 +1289,6 @@ img {
 
 .btn-container .item + .item {
   margin-left: 8px;
-}
-
-.btn-portfolio:hover,
-.btn-portfolio:active {
-  border-color: #2196F3;
-  background-color: #2196F3;
-  color: #ffffff;
 }
 
 /******************* СЕКЦИЯ ВСЕ **************************/
