@@ -76,34 +76,7 @@
     justify-content:space-between;
   
 }
-.join-icon-link{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    background-color:$bg-icon; 
-    border-radius: 50%;
-    &:hover,
-    &:focus {
-    background-color:$accent-cl;
-}
-}
-.join-icon-link:hover .join-icon-svg,
-.join-icon-link:focus .join-icon-svg{
-    fill:$white;
-    
-}
 
-
-.join-icon-svg{
-    
-    width: 20px;
-    height: 20px;
-    fill: $white;
-   
-}
 
 .subscribe { 
     position: relative;

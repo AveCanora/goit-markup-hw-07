@@ -56,31 +56,6 @@
 .a-link:hover .hover::before{
     transform:translateY(0);  
 }
-.team-icon-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    background-color:$white; 
-    border-radius: 50%;
-    &:hover,
-    &:focus {
-        background-color:$accent-cl;
-    }
-    
-}
 
-.team-icon-link:hover .team-icon-svg,
-.team-icon-link:focus .team-icon-svg{
-    fill:$white;  
-}
-
-
-.team-icon-svg{
-    width: 20px;
-    height: 20px;
-    fill: $cl-icon;
-}
 
 /* ******************************************************************************* */

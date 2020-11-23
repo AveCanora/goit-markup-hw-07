@@ -34,11 +34,12 @@
  
 }
 
-.client-icon-link:hover .client-icon-svg,
-.client-icon-link:focus .client-icon-svg{
-    fill:$accent-cl;
-    
+.client-icon-link {
+    &:hover .client-icon-svg,
+    &:focus .client-icon-svg{
+        fill:$accent-cl;
+        
+    }
 }
-
 
 /* ******************************************************* */

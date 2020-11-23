@@ -57,16 +57,19 @@
     position: relative;
     overflow: hidden;
 }
-.hover::before {
-    display: inline-block;
-    position: absolute;
+.hover{
 
-    content: "";
-    width: 370px;
-    height: 294px;
-    background: rgba(33, 150, 243, 0.9);
-    transform:translateY(100%);
-    transition:transform $time $cubic
+    &::before {
+        display: inline-block;
+        position: absolute;
+
+        content: "";
+        width: 370px;
+        height: 294px;
+        background: rgba(33, 150, 243, 0.9);
+        transform:translateY(100%);
+        transition:transform $time $cubic
+    }
 }
  .animation-overlay{
     display: block;

@@ -73,7 +73,6 @@
     padding-left: 280px;
     
 }
-.btn-container .item +.item {
-    margin-left:8px;
+.btn-container {
+	.item + .item {margin-left: 8px;}
 }
-
