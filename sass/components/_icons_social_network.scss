@@ -1,4 +1,5 @@
-.icon-link{
+
+.team-icon-link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,12 +11,37 @@
     &:focus {
         background-color:$accent-cl;
     }
-    &:hover .icon-svg,
-    &:focus .icon-svg{
+    
+}
+.join-icon-link{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color:$bg-icon; 
+    border-radius: 50%;
+    &:hover,
+    &:focus {
+    background-color:$accent-cl;
+}
+}
+
+.team-icon-link{
+
+    &:hover .team-icon-svg,
+    &:focus .team-icon-svg{
         fill:$white;  
     }
 }
 
+.join-icon-link{
+    &:hover .join-icon-svg,
+    &:focus .join-icon-svg{
+        fill:$white;      
+}
+}
 
 .team-icon-svg{
     width: 20px;
@@ -28,5 +54,8 @@
     fill: $white;
    
 }
+
+
+
 
 
