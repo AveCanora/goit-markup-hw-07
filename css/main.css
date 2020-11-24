@@ -992,13 +992,8 @@ img {
   background-color: #2196F3;
 }
 
-.team-icon-link:hover .team-icon-svg,
-.team-icon-link:focus .team-icon-svg {
-  fill: #ffffff;
-}
-
-.join-icon-link:hover .join-icon-svg,
-.join-icon-link:focus .join-icon-svg {
+.icon-link:hover .team-icon-svg,
+.icon-link:focus .team-icon-svg {
   fill: #ffffff;
 }
 

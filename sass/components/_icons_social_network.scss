@@ -28,7 +28,7 @@
 }
 }
 
-.team-icon-link{
+.icon-link{
 
     &:hover .team-icon-svg,
     &:focus .team-icon-svg{
@@ -36,12 +36,7 @@
     }
 }
 
-.join-icon-link{
-    &:hover .join-icon-svg,
-    &:focus .join-icon-svg{
-        fill:$white;      
-}
-}
+
 
 .team-icon-svg{
     width: 20px;
