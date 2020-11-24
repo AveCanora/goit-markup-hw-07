@@ -456,6 +456,11 @@ img {
   border-radius: 2px;
 }
 
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
 .auth-nav .item + .item {
   margin-left: 50px;
 }
@@ -972,6 +977,11 @@ img {
   background-color: #2196F3;
 }
 
+.team-icon-link:hover .team-icon-svg,
+.team-icon-link:focus .team-icon-svg {
+  fill: #ffffff;
+}
+
 .join-icon-link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -992,8 +1002,8 @@ img {
   background-color: #2196F3;
 }
 
-.icon-link:hover .team-icon-svg,
-.icon-link:focus .team-icon-svg {
+.join-icon-link:hover .team-icon-svg,
+.join-icon-link:focus .team-icon-svg {
   fill: #ffffff;
 }
 
