@@ -354,7 +354,7 @@ html {
 
 /*Базовое оформление*/
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 
@@ -539,7 +539,6 @@ img {
 }
 
 .footer-link {
-  font-family: Roboto;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
@@ -568,7 +567,6 @@ img {
   margin-left: 70px;
   width: 206px;
   height: 86px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -601,7 +599,6 @@ img {
   width: 570px;
   height: 86px;
   text-transform: uppercase;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -955,7 +952,7 @@ img {
   padding-top: 12px;
 }
 
-.team-icon-link {
+.icon-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -971,37 +968,12 @@ img {
   border-radius: 50%;
 }
 
-.team-icon-link:hover, .team-icon-link:focus {
+.icon-link:hover, .icon-link:focus {
   background-color: #2196F3;
 }
 
-.join-icon-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 44px;
-  height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-}
-
-.join-icon-link:hover, .join-icon-link:focus {
-  background-color: #2196F3;
-}
-
-.team-icon-link:hover .team-icon-svg,
-.team-icon-link:focus .team-icon-svg {
-  fill: #ffffff;
-}
-
-.join-icon-link:hover .join-icon-svg,
-.join-icon-link:focus .join-icon-svg {
+.icon-link:hover .icon-svg,
+.icon-link:focus .icon-svg {
   fill: #ffffff;
 }
 
